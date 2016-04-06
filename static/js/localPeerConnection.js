@@ -20,10 +20,9 @@ callButton.onclick = call;
 hangupButton.onclick = hangup;
 
 // Utility function for logging information to the JavaScript console
-//function log(text) {
-//	console.log("At time: " + (performance.now() / 1000).toFixed(3) + " --> " 
-//	+ text);
-//}
+function log(text) {
+	console.log("At time: " + (performance.now() / 1000).toFixed(3) + " --> " + text);
+}
 
 // Callback in case of success of the getUserMedia() call
 function successCallback(stream){
